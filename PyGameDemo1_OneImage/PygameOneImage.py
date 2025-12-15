@@ -22,14 +22,14 @@ clock = pygame.time.Clock()
 
 # 4 - Load assets: image(s), sound(s), etc.
 ballImage = pygame.image.load('images/ball.png') 
+
+# 5 - Initialize variables
 # 100x100 pixels
 pxBallImageWidth = 100
 pxBallImageHeight = 100
 
 # Simple validation for window dimensions
 validate_window_dimensions(WINDOW_WIDTH, WINDOW_HEIGHT, pxBallImageWidth, pxBallImageHeight)
-
-# 5 - Initialize variables
 
 # 6 - Loop forever
 while True:
